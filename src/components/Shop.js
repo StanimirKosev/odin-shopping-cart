@@ -7,9 +7,13 @@ export const Shop = ({ books, handleChange }) => {
   let navigate = useNavigate();
 
   return (
-    <div>
-      <button onClick={() => navigate("/shopping-cart/cart")} type="button">
-        Navigate to Cart
+    <div className="shop-page">
+      <button
+        onClick={() => navigate("/cart")}
+        type="button"
+        className="shop-button"
+      >
+        Cart
       </button>
       {inventory.map((book) => (
         <Book

@@ -6,6 +6,7 @@ import { Shop } from "./components/Shop";
 import { Cart } from "./components/Cart";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import githubLogo from "./images/github.png";
+import goodreadsLogo from "./images/goodreads.png";
 
 function App() {
   const [cartItems, setCartItems] = useState(0);
@@ -44,17 +45,20 @@ function App() {
       <div>
         <Nav cartItems={cartItems} />
         <Routes>
-          <Route path="/shopping-cart/" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route
-            path="/shopping-cart/shop"
+            path="/shop"
             element={<Shop books={state} handleChange={handleChange} />}
           />
-          <Route path="/shopping-cart/cart" element={<Cart />} />
+          <Route path="/cart" element={<Cart />} />
         </Routes>
         <div className="footer">
           <div>Copyright &copy; 2022 StanimirKosev</div>
           <a href="https://github.com/StanimirKosev">
             <img alt="github-logo" src={githubLogo} />
+          </a>
+          <a href="https://www.goodreads.com/user/show/124508945-stanimir-kosev">
+            <img alt="goodreads-logo" src={goodreadsLogo} />
           </a>
         </div>
       </div>

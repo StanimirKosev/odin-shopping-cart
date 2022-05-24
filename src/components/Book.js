@@ -4,9 +4,8 @@ export const Book = ({ name, image, id, books, handleChange }) => {
   const keys = Object.keys(books);
 
   return (
-    <div>
-      <img alt={name} src={image} />
-      <div>{name}</div>
+    <div className="book-box">
+      <img className="book-img" alt={name} src={image} />
       <label>
         Quantity:
         <input
