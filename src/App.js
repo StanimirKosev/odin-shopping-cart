@@ -5,6 +5,7 @@ import { Home } from "./components/Home";
 import { Shop } from "./components/Shop";
 import { Cart } from "./components/Cart";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import githubLogo from "./images/github.png";
 
 function App() {
   const [cartItems, setCartItems] = useState(0);
@@ -50,6 +51,12 @@ function App() {
           />
           <Route path="/shopping-cart/cart" element={<Cart />} />
         </Routes>
+        <div className="footer">
+          <div>Copyright &copy; 2022 StanimirKosev</div>
+          <a href="https://github.com/StanimirKosev">
+            <img alt="github-logo" src={githubLogo} />
+          </a>
+        </div>
       </div>
     </Router>
   );

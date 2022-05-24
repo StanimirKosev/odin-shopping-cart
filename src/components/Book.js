@@ -5,7 +5,7 @@ export const Book = ({ name, image, id, books, handleChange }) => {
 
   return (
     <div>
-      <img alt={name} src={image}></img>
+      <img alt={name} src={image} />
       <div>{name}</div>
       <label>
         Quantity:
