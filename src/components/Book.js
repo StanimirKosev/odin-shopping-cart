@@ -7,18 +7,16 @@ export const Book = ({ name, image, id, books, handleChange }) => {
     <div>
       <img alt={name} src={image}></img>
       <div>{name}</div>
-      <form>
-        <label htmlFor={id}></label>
+      <label>
+        Quantity:
         <input
           type="number"
-          id={id}
-          name={keys[id]}
-          value={books[keys[id]]}
-          placeholder="Select Quantity"
+          min="0"
+          name={keys[id]} // name attribute corresponds to the state name
+          value={books[keys[id]]} // value attr correspond to the state value
           onChange={handleChange}
         />
-        <button type="submit">Add to cart</button>
-      </form>
+      </label>
     </div>
   );
 };

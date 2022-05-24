@@ -8,6 +8,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   const [cartItems, setCartItems] = useState(0);
+  // for the book quantity in the input fields
   const [state, setState] = useState({
     firstBook: 0,
     secondBook: 0,
@@ -21,6 +22,7 @@ function App() {
     tenthBook: 0,
   });
 
+  // single onChange for all inputs
   function handleChange(evt) {
     const value = evt.target.value;
     setState({
@@ -30,8 +32,11 @@ function App() {
   }
 
   useEffect(() => {
-    console.log(state);
-  });
+    const sumQuantity = Object.values(state).reduce(
+      (sum, val) => parseInt(sum) + parseInt(val)
+    );
+    setCartItems(sumQuantity);
+  }, [state]);
 
   return (
     <Router>
