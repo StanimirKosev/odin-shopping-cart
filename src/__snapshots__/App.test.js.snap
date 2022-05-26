@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home tests renders Home component 1`] = `
+<div>
+  <div
+    class="home"
+  >
+    <div
+      class="quote-one"
+    >
+      <div
+        class="quote"
+      >
+        Read at every wait; read at all hours; read within leisure; read in times of labor; read as one goes in; read as one goes out. The task of the educated mind is simply put: read to lead.
+      </div>
+      <div
+        class="author"
+        data-testid="author"
+      >
+        Marcus Tullius Cicero
+      </div>
+    </div>
+    <img
+      alt="background"
+      src="background-1.avif"
+    />
+  </div>
+</div>
+`;
+
+exports[`Nav renders Nav component 1`] = `
+<div>
+  <nav>
+    <a
+      href="/"
+    >
+      <h1>
+        Book e-commerce
+      </h1>
+    </a>
+    <div
+      class="links"
+    >
+      <a
+        href="/"
+      >
+        Home
+      </a>
+      <a
+        href="/shop"
+      >
+        Shop
+      </a>
+      <a
+        class="link-cart"
+        href="/cart"
+      >
+        <div
+          class="cart-icon"
+        >
+          <div
+            class="cart-quantity"
+          />
+          <img
+            alt="bag-img"
+            src="bag.png"
+          />
+        </div>
+      </a>
+    </div>
+  </nav>
+</div>
+`;

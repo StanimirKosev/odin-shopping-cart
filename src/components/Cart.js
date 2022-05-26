@@ -11,7 +11,7 @@ export const Cart = () => {
       <button
         type="submit"
         className="checkout-btn"
-        onClick={() => navigate("/")}
+        onClick={() => navigate("/odin-shopping-cart")}
       >
         Checkout
       </button>

@@ -9,7 +9,7 @@ export const Shop = ({ books, handleChange }) => {
   return (
     <div className="shop-page">
       <button
-        onClick={() => navigate("/cart")}
+        onClick={() => navigate("/odin-shopping-cart/cart")}
         type="button"
         className="shop-button"
       >

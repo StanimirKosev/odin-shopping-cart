@@ -8,6 +8,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import githubLogo from "./images/github.png";
 import goodreadsLogo from "./images/goodreads.png";
 
+// things to improve in the project - testing , increment/decrement btns to the input fields
+
 function App() {
   const [cartItems, setCartItems] = useState(0);
   // for the book quantity in the input fields
@@ -45,12 +47,12 @@ function App() {
       <div>
         <Nav cartItems={cartItems} />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/odin-shopping-cart" element={<Home />} />
           <Route
-            path="/shop"
+            path="/odin-shopping-cart/shop"
             element={<Shop books={state} handleChange={handleChange} />}
           />
-          <Route path="/cart" element={<Cart />} />
+          <Route path="/odin-shopping-cart/cart" element={<Cart />} />
         </Routes>
         <div className="footer">
           <div>Copyright &copy; 2022 StanimirKosev</div>

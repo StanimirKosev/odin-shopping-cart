@@ -10,7 +10,9 @@ export const Home = () => {
           times of labor; read as one goes in; read as one goes out. The task of
           the educated mind is simply put: read to lead.
         </div>
-        <div className="author">Marcus Tullius Cicero</div>
+        <div data-testid="author" className="author">
+          Marcus Tullius Cicero
+        </div>
       </div>
       <img alt="background" src={backgroud1} />
     </div>
