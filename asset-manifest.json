@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/odin-shopping-cart/static/css/main.bda195ff.css",
+    "main.js": "/odin-shopping-cart/static/js/main.fe11c3da.js",
+    "static/media/background-2.avif": "/odin-shopping-cart/static/media/background-2.9b5d07b46d9097a3fb4d.avif",
+    "static/media/ray-dalio.jpg": "/odin-shopping-cart/static/media/ray-dalio.cff31930a409f7779203.jpg",
+    "static/media/background-1.avif": "/odin-shopping-cart/static/media/background-1.cecee4393d4458653847.avif",
+    "static/media/extreme-ownership.jpg": "/odin-shopping-cart/static/media/extreme-ownership.04b5c379a4feb1841d55.jpg",
+    "static/media/the-bitcoin-standart.jpg": "/odin-shopping-cart/static/media/the-bitcoin-standart.086736d7b083a9169f05.jpg",
+    "static/media/deep-work.jpg": "/odin-shopping-cart/static/media/deep-work.486f486f439bdc4ef777.jpg",
+    "static/media/crime-and-punishment.jpg": "/odin-shopping-cart/static/media/crime-and-punishment.05c2e65017aff59b5bda.jpg",
+    "static/media/why-we-sleep.jpg": "/odin-shopping-cart/static/media/why-we-sleep.3922528e5a6945ee8f2c.jpg",
+    "static/media/the-psychology-of-money.jpg": "/odin-shopping-cart/static/media/the-psychology-of-money.384efc8b48972d6d8bfe.jpg",
+    "static/media/goodreads.png": "/odin-shopping-cart/static/media/goodreads.730033e7be7ba13bc8d7.png",
+    "static/media/beyond-order.jpg": "/odin-shopping-cart/static/media/beyond-order.a7dedca467c47e4bbba0.jpg",
+    "static/media/12-rules-for-life.jpg": "/odin-shopping-cart/static/media/12-rules-for-life.a0c231ca72d42a22f6dc.jpg",
+    "static/media/bag.png": "/odin-shopping-cart/static/media/bag.1dae0c0b136245407a35.png",
+    "static/media/github.png": "/odin-shopping-cart/static/media/github.f11021803f68852df283.png",
+    "index.html": "/odin-shopping-cart/index.html",
+    "main.bda195ff.css.map": "/odin-shopping-cart/static/css/main.bda195ff.css.map",
+    "main.fe11c3da.js.map": "/odin-shopping-cart/static/js/main.fe11c3da.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bda195ff.css",
+    "static/js/main.fe11c3da.js"
+  ]
+}
